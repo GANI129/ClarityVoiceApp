@@ -18,7 +18,7 @@ Clone the Repository
 
 bash
 Copy code
-git clone https://github.com/your-username/ClearSpeakRecorder.git
+git clone https://github.com/GANI129/ClarityVoiceApp
 cd ClearSpeakRecorder
 Install Dependencies
 
