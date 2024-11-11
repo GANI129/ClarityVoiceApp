@@ -77,7 +77,7 @@ class VoiceRecorderApp(QWidget):
         # Record Button with new style
         self.record_button = QPushButton("Record")
         self.record_button.setFont(QFont("Arial", 14))
-        self.record_button.setIcon(QIcon("path/to/record_icon.png"))  # Add path to an icon if available
+        self.record_button.setIcon(QIcon(r"C:\Users\ganig\Downloads\voice.png")) 
         self.record_button.setStyleSheet("""
             QPushButton {
                 background-color: #424242; 
@@ -95,7 +95,7 @@ class VoiceRecorderApp(QWidget):
         # Transcribe Button with new style
         self.transcribe_button = QPushButton("Transcribe")
         self.transcribe_button.setFont(QFont("Arial", 14))
-        self.transcribe_button.setIcon(QIcon("path/to/transcribe_icon.png"))  # Add path to an icon if available
+        self.transcribe_button.setIcon(QIcon(r"C:\Users\ganig\Downloads\document-xxl.png"))  
         self.transcribe_button.setStyleSheet("""
             QPushButton {
                 background-color: #424242; 
@@ -113,7 +113,7 @@ class VoiceRecorderApp(QWidget):
         # Remove Fillers Button with new style
         self.remove_fillers_button = QPushButton("Remove Fillers")
         self.remove_fillers_button.setFont(QFont("Arial", 14))
-        self.remove_fillers_button.setIcon(QIcon("path/to/remove_fillers_icon.png"))  # Add path to an icon if available
+        self.remove_fillers_button.setIcon(QIcon(r"C:\Users\ganig\Downloads\icone-de-filtre-rouge.png"))  
         self.remove_fillers_button.setStyleSheet("""
             QPushButton {
                 background-color: #424242; 
